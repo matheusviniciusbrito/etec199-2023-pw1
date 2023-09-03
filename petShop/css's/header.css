@@ -29,6 +29,19 @@ body {
     justify-content: center;
 }
 
+.header-desconto img {
+    display: flex;
+    width: 1.2vw;
+    height: 1.2vw;
+    align-items: center;
+}
+
+.header-desconto p {
+    display: flex;
+    font-size: 1vw;
+    align-items: center;
+}
+
 .icon-desconto {
     width: 20px;
     height: auto;
@@ -92,4 +105,9 @@ body {
 
 .search-box:hover > .search-button {
     background:#F2D5B6
+}
+
+.header-login {
+    display: flex;
+    align-items: center;
 }
