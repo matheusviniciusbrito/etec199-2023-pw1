@@ -108,6 +108,13 @@ body {
 }
 
 .header-login {
+    position: absolute;
     display: flex;
     align-items: center;
+    margin-left: 80vw;
+    margin-top: 40px;
+}
+
+.header-login i {
+    
 }
