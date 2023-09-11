@@ -157,8 +157,35 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+    .header-desconto p {
+        font-size: 1.5vw;
+    }
+
+    .header-desconto img {
+        height: 2vw;
+        width: auto;
+    }
+
     .texto-login p {
         display: none;
+    }
+
+    .header-login img {
+        width: 4vw;
+    }
+
+    .header-login {
+        margin-left: 5%;
+    }
+
+    .carrinho-de-compras img {
+        width: 5vw;
+        margin-right: 20%;
+    }
+
+    .search-txt {
+        font-size: 1.9vw
     }
 
     .texto-login h4 {
