@@ -1,10 +1,12 @@
-function menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "imagens/menu_white_36dp.svg";
-    } else {
-        menuMobile.classList.add('open')
-        document.querySelector('.icon').src  = "imagens/close_white_36dp.svg";
+const nav = document.querySelector(".nav-list")
+var onMenu = 0
+
+function menuShow(){
+    if(onMenu == 0){
+        nav.classList.remove('responsivo')
+        onMenu = 1
+    }else{
+        nav.classList.add('responsivo')
+        onMenu = 0
     }
 }
