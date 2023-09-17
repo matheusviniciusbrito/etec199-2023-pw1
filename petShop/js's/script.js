@@ -1,12 +1,12 @@
-const nav = document.querySelector(".nav-list")
-var onMenu = 0
+const toggleBtn = document.querySelector('.toggle_btn')
+const toggleBtnIcon = document.querySelector('.toggle_btn i')
+const dropDownMenu = document.querySelector('.dropdown_menu')
 
-function menuShow(){
-    if(onMenu == 0){
-        nav.classList.remove('responsivo')
-        onMenu = 1
-    }else{
-        nav.classList.add('responsivo')
-        onMenu = 0
-    }
+toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open');
+    const isOpen = dropDownMenu.classList.contains('open')
+
+    toggleBtnIcon.classList = isOpen
+    ? 'fa-solid fa-xmark'
+    : 'fa-solid fa-bars'
 }
