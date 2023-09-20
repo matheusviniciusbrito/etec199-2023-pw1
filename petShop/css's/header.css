@@ -157,6 +157,14 @@ header {
     .dropdown_menu {
         display: block;
     }
+
+    .header-desconto p{
+        font-size: 2vw;
+    }
+    .header-desconto img {
+        width: 2.1vw;
+        height: 2.1vw;
+    }
 }
 
 @media (max-width: 400px) { 
