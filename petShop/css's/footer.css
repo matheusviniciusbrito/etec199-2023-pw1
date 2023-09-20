@@ -5,12 +5,13 @@
 .row{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color: #70EAFF;
     padding: 70px 0;
 }
 .footer-col{
@@ -19,14 +20,13 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: #000000;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
 }
 .footer-col h4::before{
-	content: '';
 	position: absolute;
 	left:0;
 	bottom: -10px;
@@ -41,10 +41,9 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #207280;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -56,7 +55,7 @@ ul{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(31, 29, 29, 0.2);
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
@@ -70,13 +69,13 @@ ul{
 }
 
 /*responsive*/
-@media(max-width: 767px){
+@media(max-width: 768px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
 }
 }
-@media(max-width: 574px){
+@media(max-width: 400px){
   .footer-col{
     width: 100%;
 }
