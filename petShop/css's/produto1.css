@@ -132,6 +132,9 @@
     .grid .imagens .img-sup img {
         border-radius: 5px;
     }
+    .features input {
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 640px) {
@@ -148,4 +151,5 @@
         "info"
         "descricao";
     }
+
 }
