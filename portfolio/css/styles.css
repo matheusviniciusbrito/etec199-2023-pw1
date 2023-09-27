@@ -1,0 +1,20 @@
+/* Reset */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+}
+
+body{
+    background-color: #ebecfa;
+}
+
+.topicos{
+    text-align: center;
+    color: #222;
+    text-shadow: 0 0 10px #999;
+    font-size: 35px;
+    padding: 10px;
+}

@@ -1,0 +1,61 @@
+/* Imagem menu */ 
+
+.img-menu{
+    background-image: url("../img/img1.jpeg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 5px #333;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-img{
+    font-family: 'Abel', sans-serif;
+    color: #eee;
+    font-size: 80px;
+    text-shadow: 0 0 10px #afb2ec;
+    transition: .5s;
+}
+
+.texto-img:hover{
+    letter-spacing: 1px;
+    text-shadow: 0 0 20px #afb2ec;
+}
+
+/* Quem Sou */
+
+#quem-sou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.img-dev{
+    transition: .5s;
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #333, 0 0 5px #222 ;
+    margin: 12px;
+}
+
+.img-dev:hover{
+    border-radius: 15%;
+}
+
+.texto-qs{
+    padding: 15px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.texto-qs:hover{
+    transform: translateY(-2px);
+    text-shadow: 0 0 10px #777;
+}

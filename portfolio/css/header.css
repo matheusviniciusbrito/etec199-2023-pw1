@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+.nav-link{
+    color: #222;
+    text-shadow: 0 0 1px #111;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.nav-link:hover{
+    color: #2b3a77;
+    text-shadow: 0 0 4px #3c4c90;
+    transform: translateY(-5px);
+}
