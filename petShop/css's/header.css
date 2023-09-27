@@ -115,6 +115,7 @@ header {
 
 .dropdown_menu {
     display: none;
+    z-index: 9999;
     position: absolute;
     right: 2rem;
     top: 60px;
@@ -129,6 +130,7 @@ header {
 
 .dropdown_menu.open {
     height: 240px;
+    position: absolute;
 }
 
 .dropdown_menu li {
