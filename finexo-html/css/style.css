@@ -935,4 +935,8 @@ a:focus {
 .fundo{
   color: #00bbf0;
 }
+
+.opa{
+  box-shadow: 0px -200px 150px 150px #00204a; 
+}
 /*# sourceMappingURL=style.css.map */
