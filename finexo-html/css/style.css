@@ -134,6 +134,7 @@ a:focus {
   display: none;
 }
 
+
 .header_section {
   padding: 15px 0;
 }
@@ -167,10 +168,6 @@ a:focus {
   transition: all 0.3s;
 }
 
-.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #00bbf0;
-}
-
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
   font-weight: 600;
 }
@@ -181,10 +178,6 @@ a:focus {
   padding: 0;
   border: none;
   color: #ffffff;
-}
-
-.custom_nav-container .nav_search-btn:hover {
-  color: #00bbf0;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -338,11 +331,6 @@ a:focus {
 
 }
 
-.oioi{
-  box-shadow: 0px 0px 50px black; 
-
-}
-
 .slider_section .img-box img {
   width: 100%;
 }
@@ -491,6 +479,9 @@ a:focus {
   color: #ffffff;
 }
 
+.secao{
+  color: #ffffff;
+}
 .about_section .heading_container {
   margin-bottom: 45px;
 }
@@ -936,7 +927,67 @@ a:focus {
   color: #00bbf0;
 }
 
-.opa{
-  box-shadow: 0px -200px 150px 150px #00204a; 
+.opaa{
+  box-shadow: 0px 20px 50px 20px #0f054c;
+}
+.oioi{
+  box-shadow: 0px 0px 50px black; 
+}
+.cor{
+  color: #215177;
+}
+
+.cor3{
+  background: #02224C;
+  box-shadow: 0px 20px 50px 20px #092D56;
+}
+.cor4{
+  background: #052750;
+  box-shadow: 0px 20px 50px 20px #02224C;
+}
+.olaaa{
+  color: #190f5d;
+}
+.simsim{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center !important;
+}
+.simsimi{
+  font-size: 1rem;
+}
+.detail-box.okok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-box.okok .simsimi {
+  max-width: 80%; /* Ajuste a largura máxima conforme necessário */
+  margin: 0 auto; /* Para centralizar o texto horizontalmente */
+}
+.button {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid blue;
+}
+
+.button1:hover {
+  background-color: rgb(34, 34, 128);
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
