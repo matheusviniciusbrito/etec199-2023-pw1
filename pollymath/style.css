@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#principal{
+     overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Ballo';
+    src: url('Baloo-Regular.ttf');
+}
+
+body{
+    font-family: 'Ballo';
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.none{
+    display: none;
+}
+

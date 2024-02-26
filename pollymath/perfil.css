@@ -1,0 +1,359 @@
+a{
+    color: black !important;
+}
+
+
+
+.perfil-main {
+    border-radius: 15px;
+    width: calc(100vw - 355px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil {
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-user {
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-user {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.user-image{
+    width: 150px;
+	min-height: 150px;     
+    max-height: 150px;
+    object-fit: contain;
+    object-fit: cover;
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+#principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.XP {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.XP span{
+    color: #07BEB8;
+    
+}
+
+.fase-user {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.module-one-user, .module-two-user, .module-three-user {
+    width: 270px;
+    height: 270px;
+    border: solid 2px #07BEB8;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fases-complet-user {
+    display: flex;
+}
+
+#fases-complet-user-img {
+    border-radius: 100%;
+}
+
+#name-lesson-user {
+    font-size:20px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+#descricao-user {
+    font-size:15px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+.url{
+	width: 80%;  
+    height: 40px;
+    padding-left: 20px;
+    color: black;
+    border: none;
+            background-color:white;
+            border-radius: 10px;
+}
+.sub{
+    color: black;
+	width: 80px;  
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:white;
+    transition: 0.1s ease-in-out
+
+}
+        
+
+.sub:hover{
+    background-color: #07BEB8;
+    color: white;
+    transition: 0.1s ease-in-out
+}
+
+.image-alternate{
+    margin-block: 20px;
+	width:200px;
+    height:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px #07BEB8;
+   	cursor: pointer;
+    transition: 0.1s ease-in-out
+}
+.image-alternate:hover{
+    background-color: #07BEB8;
+    color: white;
+    transition: 0.1s ease-in-out
+ }
+
+/* sidebar*/
+.sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.15);
+    left: 0;
+     
+}
+
+.sidebar-locate{
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar-learn,.sidebar-statistics,.sidebar-friends,.sidebar-profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-square{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background: rgba(7, 190, 184, 0.20);
+    border-radius: 10px;
+    border: 2px solid #07BEB8;
+}
+
+.sidebar-square svg{
+    position: relative;
+    left: 8px;
+}
+
+.sidebar-friends .sidebar-square svg{
+    position: relative;
+    left: 5px;
+}
+
+.on-locate{
+    animation: on 0.5s ease-in-out;
+    width: 150px;
+    margin-right: -100px; 
+    transition-delay: 0.5s;
+}
+
+.off-locate{
+    animation: off 0.5s ease-in-out;
+}
+
+.user-image{
+    border-radius: 50%;
+    opacity: 100%;
+    border: #07BEB8 0px solid;
+}
+
+.urlImage{
+    z-index: 500;
+    width: 500px;
+    height: 150px;
+    position: fixed;
+    left: calc(50vw - 250px);
+    top: calc(50vh - 75px);
+    border-radius: 8px;
+    background-color: #cdf2f1;
+}
+
+#url{
+    width: 90%;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 18px;
+}
+
+#url::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+#sub{
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    color: black;
+    width: 30%;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 510px) {
+    .urlImage{
+        width: 90vw;
+        left: calc(50vw - 45vw);
+    }
+}
+
+@keyframes on {
+    0%{
+        width: 40px;
+        margin-right: 0;    
+    }
+    100%{
+        width: 150px;
+        margin-right: -100px; 
+    }
+}
+
+@keyframes off {
+    0%{
+        width: 150px;
+        margin-right: -100px; 
+    }
+    100%{
+        width: 40px;
+        margin-right: 0;    
+    }
+}
+
+.sidebar-responsive {
+    display: none;
+}
+
+@media (max-width: 660px) {
+    .sidebar{
+        width: 250px;
+    }
+    .img-title-login{
+        width: 250px;
+        height: 140px;
+    }
+    .perfil-main{
+        width: calc(100vw - 250px);
+    }
+}
+
+@media (max-width: 535px) {
+    .sidebar-locate{
+        display: none;
+    }
+    #principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar{
+        display:none;
+    }
+    .perfil-main{
+        width: 100vw;
+        height: 450px;
+        margin-top: 150px;
+        display: flex;
+    }
+    .perfil{
+        height: 350px;
+    }
+    .sidebar-responsive {
+        background-color: #07BEB8;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8vh;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        
+    }
+
+    .selecionado {
+        margin-bottom: 15px;
+        background-color: aliceblue;
+        border-radius: 14px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 280px) {
+    .name-user{
+        font-size: 20px;
+    }
+    
+}
